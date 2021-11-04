@@ -124,8 +124,8 @@ html{
     .contact p{
         margin-left: 2rem;
     }
-    .contact i{
-        width:0.3rem;
+    .contact img{
+        width:1.2rem;
     }
 }
 
@@ -226,6 +226,9 @@ html{
     }
     .contact p{
         margin-left: 1rem;
+    }
+    .contact img{
+        width:1.2rem;
     }
 }
 
@@ -333,7 +336,8 @@ html{
     .contact p{
         margin-left: 0.3rem;
     }
-    .contact i{
+    .contact img{
+        width:1.2rem;
         margin-left:1rem;
     }
 }
