@@ -1,0 +1,341 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+}
+
+html{
+    width: 100%;
+}
+
+
+
+/* NAVBAR */
+/* .navbar{
+    background: #2f3c50;
+    height: 2.5rem;
+}
+.nav-options{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+    width: 20rem;
+    margin-left: 3rem;
+}
+.nav-option{
+
+}
+.nav-option a{
+    color: white;
+    text-decoration: none;
+    font-size: 1.3rem;
+} */
+
+/* TITLE BLOCK */
+@media screen and (min-width: 1100px) {
+    body{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: row;
+    }
+
+    .title-block{
+        width: 40%;
+        min-width: 36rem;
+        height: 100vh;
+        background-image: url("images/victor-grabarczyk-ORME7hz4f3I-unsplash.jpg");
+        background-size: contain;
+        background-size: 100% auto;
+        background-position-y: 84%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        position:sticky;
+        top:0px;
+    }
+    .intro{
+        width: 100%;
+        background: #141413;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+    .intro h2{
+        margin: 1rem;
+        color: white;
+        font-weight: 100;
+        text-align: center;
+    }
+    .intro img{
+        height: 10rem;
+    }
+
+    /* CONTENT BLOCK */
+    .content-block{
+        width: 60%;
+        position:relative;
+        background:white;
+        margin-bottom: 5rem;
+    }
+    .container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .brief{
+        margin-top: 5rem;
+        width: 60%;
+    }
+    .content-block h3{
+        font-weight: 600;
+    }
+    .brief p{
+        margin: 0.5rem;
+    }
+    .skills{
+        margin-top: 5rem;
+        width: 60%;
+    }
+    .skills #content{
+        margin: 0.5rem;
+    }
+    #content img{
+        width: 100%;
+        min-width: 20rem;
+        max-width: 36rem;
+    }
+    .contacts{
+        margin-top: 5rem;
+        width: 60%;
+    }
+    .contact-list{
+        margin:0.5rem;
+    }
+    .contact{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        margin-top: 0.5rem;
+    }
+    .contact p{
+        margin-left: 2rem;
+    }
+    .contact i{
+        width:0.3rem;
+    }
+}
+
+@media screen and (max-width: 1100px) and (min-width: 720px){
+    body{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .title-block{
+        width: 100%;
+        height: 21rem;
+        background-image: url("images/victor-grabarczyk-ORME7hz4f3I-unsplash.jpg");
+        background-size: contain;
+        background-size: 100% auto;
+        background-position-y: 84%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .intro{
+        width: 40%;
+        max-width: 700px;
+        min-width: 36rem;
+        background: #141413;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+    .intro h2{
+        margin: 1rem;
+        color: white;
+        font-weight: 100;
+        text-align: center;
+    }
+    .intro img{
+        height: 10rem;
+    }
+
+    /* CONTENT BLOCK */
+    .content-block{
+        background:white;
+        width: 100%;
+        margin-bottom: 5rem;
+    }
+    .container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-right:10%;
+        padding-left:10%;
+    }
+    .brief{
+        margin-top: 5rem;
+        width: 60%;
+        align-self: flex-start;
+    }
+    .content-block h3{
+        font-weight: 600;
+    }
+    .brief p{
+        margin: 0.5rem;
+    }
+    .skills{
+        margin-top: 5rem;
+        width: 60%;
+        align-self: flex-end;
+    }
+    .skills #content{
+        margin: 0.5rem;
+    }
+    #content img{
+        width: 100%;
+        min-width: 16rem;
+        max-width: 36rem;
+    }
+    .contacts{
+        margin-top: 5rem;
+        width: 60%;
+        align-self: flex-start;
+    }
+    .contact-list{
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+        margin:0.5rem;
+    }
+    .contact{
+        display: flex;
+        flex-direction: row;
+        margin-top:0.3rem;
+        align-items: center;
+    }
+    .c-short{
+        min-width: 8rem;
+    }
+    .contact p{
+        margin-left: 1rem;
+    }
+}
+
+@media screen and (max-width: 720px) {
+    body{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .title-block{
+        width: 100%;
+        height: 24rem;
+        background-image: url("images/victor-grabarczyk-ORME7hz4f3I-unsplash.jpg");
+        background-size: contain;
+        background-size: 100% auto;
+        background-position-y: 84%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .intro{
+        width: 100%;
+        background: #141413;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+    .intro h2{
+        margin: 1rem;
+        color: white;
+        font-weight: 100;
+        font-size: 1.3rem;
+        text-align: center;
+    }
+    .intro img{
+        height: 11rem;
+    }
+
+    /* CONTENT BLOCK */
+    .content-block{
+        background:white;
+        width: 100%;
+        margin-bottom: 5rem;
+    }
+    .container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .brief{
+        margin-top: 5rem;
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .content-block h3{
+        font-weight: 600;
+    }
+    .brief p{
+        margin: 0.5rem;
+        text-align: center;
+    }
+    .skills{
+        margin-top: 5rem;
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .skills #content{
+        margin: 0.5rem;
+    }
+    .skills p{
+        text-align: center
+    }
+    #content img{
+        width: 100%;
+        min-width: 20rem;
+        max-width: 36rem;
+    }.contacts{
+        margin-top: 5rem;
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .contact-list{
+        margin:0.5rem;
+        display: grid;
+        grid-template-columns: 7fr 13fr;
+    }
+    .contact{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        margin-top: 0.5rem;
+    }
+    .c-short{
+        justify-content: flex-end;
+    }
+    .contact p{
+        margin-left: 0.3rem;
+    }
+    .contact i{
+        margin-left:1rem;
+    }
+}
+
+
