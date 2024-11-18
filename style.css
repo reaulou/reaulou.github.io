@@ -21,7 +21,7 @@ html{
         width: 40%;
         min-width: 36rem;
         height: 100vh;
-        background-image: url("https://ik.imagekit.io/reaulou/portfolio_assets/banner.jpg");
+        background-image: url("https://ik.imagekit.io/reaulou/portfolio_assets/banner%2060%2050%2060%2060.jpg");
         background-size: contain;
         background-size: 100% auto;
         background-position-y: 84%;
@@ -146,7 +146,7 @@ html{
     .title-block{
         width: 100%;
         height: 21rem;
-        background-image: url("images/victor-grabarczyk-ORME7hz4f3I-unsplash.jpg");
+        background-image: url("https://ik.imagekit.io/reaulou/portfolio_assets/banner%2060%2050%2060%2060.jpg");
         background-size: contain;
         background-size: 100% auto;
         background-position-y: 84%;
@@ -280,7 +280,7 @@ html{
     .title-block{
         width: 100%;
         height: 24rem;
-        background-image: url("images/victor-grabarczyk-ORME7hz4f3I-unsplash.jpg");
+        background-image: url("https://ik.imagekit.io/reaulou/portfolio_assets/banner%2060%2050%2060%2060.jpg");
         background-size: contain;
         background-size: 100% auto;
         background-position-y: 84%;
